@@ -13,7 +13,7 @@ Author: Nicolas Hafner <shinmera@tymoon.eu>
   (db:create 'overwatch-points '((watcher (:varchar 64)) (value :float) (time (:integer 5)))
              :indices '(watcher time)))
 
-(define-trigger radiance:startup ()
+(define-trigger radiance:startup-ready ()
   (dolist (watcher (or (radiance:config-tree :overwatch :watchers)
                        *default-watchers*))
     (let ((name (find-symbol (string-upcase watcher) :org.shirakumo.radiance.overwatch)))
