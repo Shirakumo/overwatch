@@ -4,7 +4,7 @@ This file is a part of Overwatch
 Author: Nicolas Hafner <shinmera@tymoon.eu>
 |#
 
-(in-package #:cl-user)
+
 (asdf:defsystem overwatch
   :class "radiance:module"
   :defsystem-depends-on (:radiance) 
