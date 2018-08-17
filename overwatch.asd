@@ -12,7 +12,9 @@ Author: Nicolas Hafner <shinmera@tymoon.eu>
   :description "Simple monitoring for Radiance."
   :version "0.0.1" 
   :license "Artistic" 
-  :homepage "http://github.com/Shirakumo/overwatch"
+  :homepage "https://Shirakumo.github.io/overwatch/"
+  :bug-tracker "https://github.com/Shirakumo/overwatch/issues"
+  :source-control (:git "https://github.com/Shirakumo/overwatch.git")
   :components ((:file "module")
                (:file "watchers")
                (:file "record")
