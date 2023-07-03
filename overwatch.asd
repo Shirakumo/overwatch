@@ -1,14 +1,7 @@
-#|
-This file is a part of Overwatch
-(c) 2015 Shirakumo http://tymoon.eu (shinmera@tymoon.eu)
-Author: Nicolas Hafner <shinmera@tymoon.eu>
-|#
-
-
 (asdf:defsystem overwatch
   :class "radiance:module"
   :defsystem-depends-on (:radiance) 
-  :author "Nicolas Hafner"
+  :author "Yukari Hafner"
   :description "Simple monitoring for Radiance."
   :version "0.0.1" 
   :license "zlib" 
